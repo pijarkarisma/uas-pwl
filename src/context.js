@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {storeProducts, detailProduct} from './data';
+import { storeProducts, detailProduct } from './handling';
 
 const productContext = React.createContext();
 //Provider
@@ -24,12 +24,12 @@ export default class ProductProvider extends Component {
     setProducts = () => {
         let tempProducts = [];
         storeProducts.forEach(item => {
-            const singleItem = {...item};
-            tempProducts = [...tempProducts,singleItem];
+            const singleItem = { ...item };
+            tempProducts = [...tempProducts, singleItem];
         });
 
         this.setState(() => {
-            return {products:tempProducts};
+            return { products: tempProducts };
         });
     }
 
@@ -41,7 +41,7 @@ export default class ProductProvider extends Component {
     handleDetail = id => {
         const product = this.getItem(id);
         this.setState(() => {
-            return { detailProduct:product };
+            return { detailProduct: product };
         });
     }
 
@@ -54,20 +54,20 @@ export default class ProductProvider extends Component {
         const price = product.price;
         product.total = price;
         this.setState(() => {
-            return {products: tempProducts, cart: [...this.state.cart, product]};
+            return { products: tempProducts, cart: [...this.state.cart, product] };
         }, this.addTotals);
     }
 
     openModal = id => {
         const product = this.getItem(id);
-        this.setState(()=>{
-            return {modalProduct:product, modalOpen:true};
+        this.setState(() => {
+            return { modalProduct: product, modalOpen: true };
         });
     }
 
-    closeModal = () =>{
+    closeModal = () => {
         this.setState(() => {
-            return {modalOpen:false};
+            return { modalOpen: false };
         });
     }
 
@@ -83,11 +83,11 @@ export default class ProductProvider extends Component {
         product.total = product.count * product.price;
         this.setState(() => {
             return {
-            cart: [...tempCart]
+                cart: [...tempCart]
             };
         }, this.addTotals);
     };
-    
+
     decrement = id => {
         let tempCart = [...this.state.cart];
         const selectedProduct = tempCart.find(item => {
@@ -101,11 +101,11 @@ export default class ProductProvider extends Component {
         } else {
             product.total = product.count * product.price;
             this.setState(() => {
-            return { cart: [...tempCart] };
+                return { cart: [...tempCart] };
             }, this.addTotals);
         }
     };
-    
+
     removeItem = id => {
         let tempProducts = [...this.state.products];
         let tempCart = [...this.state.cart];
@@ -122,37 +122,36 @@ export default class ProductProvider extends Component {
 
         this.setState(() => {
             return {
-            cart: [...tempCart],
-            products: [...tempProducts]
+                cart: [...tempCart],
+                products: [...tempProducts]
             };
         }, this.addTotals);
     };
 
     clearCart = () => {
-        this.setState(()=> {
-            return { cart:[] };
+        this.setState(() => {
+            return { cart: [] };
         },
-        ()=> {
-            this.setProducts();
-            this.addTotals();
-        });
+            () => {
+                this.setProducts();
+                this.addTotals();
+            });
     }
 
     addTotals = () => {
         let subTotal = 0;
-        this.state.cart.map(item => 
-            {
-                subTotal += item.total;
-                return subTotal;
-            });
-        const tempTax = subTotal*0.1;
+        this.state.cart.map(item => {
+            subTotal += item.total;
+            return subTotal;
+        });
+        const tempTax = subTotal * 0.1;
         const tax = parseFloat(tempTax.toFixed(2));
         const total = subTotal + tax;
-        this.setState(()=> {
+        this.setState(() => {
             return {
-                cartSubTotal:subTotal,
-                cartTax:tax,
-                cartTotal:total
+                cartSubTotal: subTotal,
+                cartTax: tax,
+                cartTotal: total
             }
         });
     }
@@ -160,17 +159,17 @@ export default class ProductProvider extends Component {
     render() {
         return (
             <productContext.Provider
-            value={{
-                ...this.state,
-                handleDetail: this.handleDetail,
-                addToCart: this.addToCart,
-                openModal: this.openModal,
-                closeModal: this.closeModal,
-                increment: this.increment,
-                decrement : this.decrement,
-                removeItem: this.removeItem,
-                clearCart: this.clearCart
-            }}
+                value={{
+                    ...this.state,
+                    handleDetail: this.handleDetail,
+                    addToCart: this.addToCart,
+                    openModal: this.openModal,
+                    closeModal: this.closeModal,
+                    increment: this.increment,
+                    decrement: this.decrement,
+                    removeItem: this.removeItem,
+                    clearCart: this.clearCart
+                }}
             >
                 {this.props.children}
             </productContext.Provider>
