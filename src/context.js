@@ -14,7 +14,8 @@ export default class ProductProvider extends Component {
         modalProduct: detailProduct,
         cartSubTotal: 0,
         cartTax: 0,
-        cartTotal: 0
+        cartTotal: 0,
+        isOrderSuccess: false
     };
 
     componentDidMount() {
@@ -136,6 +137,8 @@ export default class ProductProvider extends Component {
                 this.setProducts();
                 this.addTotals();
             });
+
+        alert("Thank you. Order confirmed");
     }
 
     addTotals = () => {
