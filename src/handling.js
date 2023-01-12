@@ -31,7 +31,7 @@ export const storeProducts = [
         price: 8,
         teacher: "Roin",
         info:
-            "Adobe XD merupakan salah satu tool desain yang seringkali digunakan untuk keperluan prototyping. Dengan tampilannya yang cukup sederhana dan straight forward, tool ini mempermudah desainer dalam merancang tampilan UI dari sebuah aplikasi serta prototypenya. Prototyping merupakan tahapan yang cukup penting dalam proses pengembangan aplikasi, maka dari itu, dalam course ini, mentor Charisma Course, Antonia Deidre, akan mendampingi Anda dalam memahami hal-hal mendasar mengenai Adobe XD, cara menggunakannya serta membuat prototype pertama Anda.",
+            "Adobe XD merupakan salah satu tool desain yang seringkali digunakan untuk keperluan prototyping. Dengan tampilannya yang cukup sederhana dan straight forward, tool ini mempermudah desainer dalam merancang tampilan UI dari sebuah aplikasi serta prototypenya. Prototyping merupakan tahapan yang cukup penting dalam proses pengembangan aplikasi, maka dari itu, dalam course ini, mentor Charisma Course, Roin, akan mendampingi Anda dalam memahami hal-hal mendasar mengenai Adobe XD, cara menggunakannya serta membuat prototype pertama Anda.",
         inCart: false,
         count: 0,
         total: 0
@@ -43,7 +43,7 @@ export const storeProducts = [
         price: 18,
         teacher: "Vieri",
         info:
-            "Figma merupakan tool prototyping berbasis web yang cukup terkenal dan sering digunakan dalam proses pengembangan aplikasi. Karena sifatnya yang kolaboratif, tool ini seringkali digunakan oleh sekelompok pengembang aplikasi dalam perusahaan. Banyak fitur kolaboratif dari tool ini yang dapat menguntungkan para pengembang aplikasi. Dalam course ini, mentor kami Pijar Karisma akan membantu Anda dalam memahami dan menggunakan fitur-fitur kolaboratif dari Figma.",
+            "Figma merupakan tool prototyping berbasis web yang cukup terkenal dan sering digunakan dalam proses pengembangan aplikasi. Karena sifatnya yang kolaboratif, tool ini seringkali digunakan oleh sekelompok pengembang aplikasi dalam perusahaan. Banyak fitur kolaboratif dari tool ini yang dapat menguntungkan para pengembang aplikasi. Dalam course ini, mentor kami Vieri akan membantu Anda dalam memahami dan menggunakan fitur-fitur kolaboratif dari Figma.",
         inCart: false,
         count: 0,
         total: 0
@@ -55,7 +55,7 @@ export const storeProducts = [
         price: 24,
         teacher: "Intona",
         info:
-            "Blender merupakan tool desain berbasis 3D yang bersifat open-source. Seringkali tool ini digunakan untuk membuat Animated Movie, Visual Effect, Motion Graphics, Game, serta Virtual Reality. Terdapat berbagai fitur dalam mendesain model 3D dalam Blender, apa saja ya kira-kira? Dalam course ini, mentor Charisma Course, Keivan Roin, akan membantu dalam memahami dasar-dasar dalam tool Blender serta membuat 3D model pertama Anda.",
+            "Blender merupakan tool desain berbasis 3D yang bersifat open-source. Seringkali tool ini digunakan untuk membuat Animated Movie, Visual Effect, Motion Graphics, Game, serta Virtual Reality. Terdapat berbagai fitur dalam mendesain model 3D dalam Blender, apa saja ya kira-kira? Dalam course ini, mentor Charisma Course, Intona, akan membantu dalam memahami dasar-dasar dalam tool Blender serta membuat 3D model pertama Anda.",
         inCart: false,
         count: 0,
         total: 0
@@ -67,7 +67,7 @@ export const storeProducts = [
         price: 17,
         teacher: "Wiriawan",
         info:
-            "Procreate merupakan sebuah aplikasi desain yang seringkali digunakan dalam iOS dan iPadOS. Tool ini sudah sering digunakan dalam proses pengembangan sebuah film, termasuk pada tahapan perancangan, seperti perancangan konsep karakter Star Wars, serta pada tahapan marketing, seperti poster dari film seri Stranger Things. Mentor Charisma Course, Laura Imanuelle, akan membantu Anda dalam memahami dasar-dasar dalam menggunakan Procreate.",
+            "Procreate merupakan sebuah aplikasi desain yang seringkali digunakan dalam iOS dan iPadOS. Tool ini sudah sering digunakan dalam proses pengembangan sebuah film, termasuk pada tahapan perancangan, seperti perancangan konsep karakter Star Wars, serta pada tahapan marketing, seperti poster dari film seri Stranger Things. Mentor Charisma Course, Wiriawan, akan membantu Anda dalam memahami dasar-dasar dalam menggunakan Procreate.",
         inCart: false,
         count: 0,
         total: 0
@@ -79,7 +79,7 @@ export const storeProducts = [
         price: 14,
         teacher: "Bens",
         info:
-            "ArtRage merupakan sebuah aplikasi desain yang banyak digunakan oleh kelompok masyarakat mulai dari anak-anak hingga oleh para profesional. Salah satu fitur utama dari tool ini adalah sifat dari alat desainnya yang realistis. Maka dari itu hasil dari tool ini seringkali nampak realistis. Dalam course ini, mentor kami, Antonia Deidre akan membimbing Anda dalam memahami dasar-dasar tool ArtRage serta cara menggunakannya.",
+            "ArtRage merupakan sebuah aplikasi desain yang banyak digunakan oleh kelompok masyarakat mulai dari anak-anak hingga oleh para profesional. Salah satu fitur utama dari tool ini adalah sifat dari alat desainnya yang realistis. Maka dari itu hasil dari tool ini seringkali nampak realistis. Dalam course ini, mentor kami, Bens akan membimbing Anda dalam memahami dasar-dasar tool ArtRage serta cara menggunakannya.",
         inCart: false,
         count: 0,
         total: 0
@@ -94,7 +94,7 @@ export const detailProduct = {
     price: 10,
     teacher: "Karisma",
     info:
-        "Adobe Photoshop, atau yang lebih dikenal dengan istilah Photoshop, merupakan tool desain yang memiliki banyak fungsi. Selain untuk mengedit sebuah hasil foto, tool ini juga dapat digunakan untuk membuat gambar dari awal. Tidak jarang perusahaan-perusahaan menaruh kemampuan mendesain dengan Photoshop sebagai salah satu syarat untuk menjadi seorang Graphic Designer dalam perusahaan tersebut. Mungkin Anda sudah memiliki basic untuk menggunakan Photoshop, maka dalam course ini salah satu mentor Charisma Course, Pijar Karisma akan mendampingi Anda dalam mengasah skill Photoshop Anda agar lebih baik lagi.",
+        "Adobe Photoshop, atau yang lebih dikenal dengan istilah Photoshop, merupakan tool desain yang memiliki banyak fungsi. Selain untuk mengedit sebuah hasil foto, tool ini juga dapat digunakan untuk membuat gambar dari awal. Tidak jarang perusahaan-perusahaan menaruh kemampuan mendesain dengan Photoshop sebagai salah satu syarat untuk menjadi seorang Graphic Designer dalam perusahaan tersebut. Mungkin Anda sudah memiliki basic untuk menggunakan Photoshop, maka dalam course ini salah satu mentor Charisma Course, Karisma akan mendampingi Anda dalam mengasah skill Photoshop Anda agar lebih baik lagi.",
     inCart: false,
     count: 0,
     total: 0
