@@ -1,5 +1,5 @@
 import './controller/data'
-import { tittle, img, info, price, teacher } from './controller/data';
+import { tittle, img, info, price, teacher, inCart, count, total } from './controller/data';
 
 
 export const storeProducts = [
@@ -11,9 +11,9 @@ export const storeProducts = [
     price: price(id),
     teacher: teacher(id),
     info: info(id),
-    inCart: false,
-    count: 0,
-    total: 0
+    inCart: inCart(id),
+    count: count(id),
+    total: total(id)
   },
   {
     id: 2,
@@ -22,9 +22,9 @@ export const storeProducts = [
     price: price(id),
     teacher: teacher(id),
     info: info(id),
-    inCart: false,
-    count: 0,
-    total: 0
+    inCart: inCart(id),
+    count: count(id),
+    total: total(id)
   },
   {
     id: 3,
@@ -33,9 +33,9 @@ export const storeProducts = [
     price: price(id),
     teacher: teacher(id),
     info: info(id),
-    inCart: false,
-    count: 0,
-    total: 0
+    inCart: inCart(id),
+    count: count(id),
+    total: total(id)
   },
   {
     id: 4,
@@ -44,9 +44,9 @@ export const storeProducts = [
     price: price(id),
     teacher: teacher(id),
     info: info(id),
-    inCart: false,
-    count: 0,
-    total: 0
+    inCart: inCart(id),
+    count: count(id),
+    total: total(id)
   },
   {
     id: 5,
@@ -55,9 +55,9 @@ export const storeProducts = [
     price: price(id),
     teacher: teacher(id),
     info: info(id),
-    inCart: false,
-    count: 0,
-    total: 0
+    inCart: inCart(id),
+    count: count(id),
+    total: total(id)
   },
   {
     id: 6,
@@ -66,9 +66,9 @@ export const storeProducts = [
     price: price(id),
     teacher: teacher(id),
     info: info(id),
-    inCart: false,
-    count: 0,
-    total: 0
+    inCart: inCart(id),
+    count: count(id),
+    total: total(id)
   },
   {
     id: 7,
@@ -77,9 +77,9 @@ export const storeProducts = [
     price: price(id),
     teacher: teacher(id),
     info: info(id),
-    inCart: false,
-    count: 0,
-    total: 0
+    inCart: inCart(id),
+    count: count(id),
+    total: total(id)
   },
 
 ];
@@ -91,7 +91,7 @@ export const detailProduct = {
   price: price(id),
   teacher: teacher(id),
   info: info(id),
-  inCart: false,
-  count: 0,
-  total: 0
+  inCart: inCart(id),
+  count: count(id),
+  total: total(id)
 };
