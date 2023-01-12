@@ -7,7 +7,7 @@ export const storeProducts = [
         price: 10,
         teacher: "Karisma",
         info:
-            "Adobe Illustrator, atau yang biasa dikenal dengan singkatan AI, merupakan salah satu tool yang sering digunakan oleh para desainer grafis untuk keperluan membuat gambar dari awal. Lantas apa yang membedakan Photoshop dengan AI? Hal ini dapat anda pelajari selama mengikuti course ini. Salah satu mentor kami dari Charisma Course, Keivan Roin, akan mendampingi Anda dalam mempelajari cara menggunakan perangkat ini, mulai dari hal-hal mendasar, hinggai Anda dapat membuat karya vector pertama anda menggunakan AI.",
+            "Adobe Illustrator, atau yang biasa dikenal dengan singkatan AI, merupakan salah satu tool yang sering digunakan oleh para desainer grafis untuk keperluan membuat gambar dari awal. Lantas apa yang membedakan Photoshop dengan AI? Hal ini dapat anda pelajari selama mengikuti course ini. Salah satu mentor kami dari Charisma Course, Karisma, akan mendampingi Anda dalam mempelajari cara menggunakan perangkat ini, mulai dari hal-hal mendasar, hinggai Anda dapat membuat karya vector pertama anda menggunakan AI.",
         inCart: false,
         count: 0,
         total: 0
@@ -19,7 +19,7 @@ export const storeProducts = [
         price: 16,
         teacher: "Imanuele",
         info:
-            "Canva merupakan suatu tool desain yang berbasis web. Tool ini seiring berjalannya waktu, semakin sering digunakan oleh berbagai macam institusi, untuk berbagai macam keperluan. Salah satu kegunaan Canva akan dibahas dalam course ini yakni kegunaannya untuk keperluan marketing suatu perusahaan. Salah satu mentor kami, Laura Imanuelle, akan mendampingi Anda dalam mempelajari cara menggunakan Canva seefktif mungkin untuk keperluan marketing.",
+            "Canva merupakan suatu tool desain yang berbasis web. Tool ini seiring berjalannya waktu, semakin sering digunakan oleh berbagai macam institusi, untuk berbagai macam keperluan. Salah satu kegunaan Canva akan dibahas dalam course ini yakni kegunaannya untuk keperluan marketing suatu perusahaan. Salah satu mentor kami, Imanuele, akan mendampingi Anda dalam mempelajari cara menggunakan Canva seefktif mungkin untuk keperluan marketing.",
         inCart: false,
         count: 0,
         total: 0
