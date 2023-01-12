@@ -23,7 +23,7 @@ export default class Details extends Component {
                                 <div className="col-10 mx-auto col-md-6 my-3">
                                     <img src={img} className="img-fluid" alt="product" />
                                 </div>
-                                <div className="col-10 mx-auto col-md-6 my-3 text-capitalize">
+                                <div className="col-10 mx-auto col-md-6 my-3">
                                     <h2>Class Name: {title}</h2>
                                     <h4 className="text-title text-uppercase text-mutated mt-3 mb-2">
                                         Teacher: <span className="text-uppercase">{teacher}</span>
@@ -37,7 +37,7 @@ export default class Details extends Component {
                                     <p className="text-capitalize font-weight-bold mt-3 mb-0">
                                         some info about Class:
                                     </p>
-                                    <p className="text-muted lead">{info}</p>
+                                    <p className="text-muted">{info}</p>
                                     {/* buttons */}
                                     <div>
                                         <Link to="/">
